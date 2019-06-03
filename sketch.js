@@ -75,7 +75,7 @@ function draw() {
   xsol = cos(-sollat+isslat)*sin(-sollong+isslong);
   zsol = cos(-sollat+isslat)*cos(-sollong+isslong);
   ysol = sin(-sollat+isslat);
-  directionalLight(255, 255, 255, xsol, ysol, -zsol)
+  directionalLight(255, 255, 255, xsol, -ysol, -zsol)
   directionalLight(60,60,60,0,0,-1);
   
   //TERRA
