@@ -26,7 +26,7 @@ function preload() {
 function setup() {
   pi = PI;
   piover2 = PI/2;
-  createCanvas(600,600, WEBGL);
+  createCanvas(1366,768, WEBGL);
   const degtorad = PI/180; 
     const api_url = 'https://api.wheretheiss.at/v1/satellites/25544';
     var myVar = setInterval(getISS, 5000);
