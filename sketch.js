@@ -48,7 +48,7 @@ function setup() {
   assinatura.fill(0);
   assinatura.textAlign(CENTER);
   assinatura.textSize(75);
-  assinatura.text('Bonelli_2001', 280, 70);
+  assinatura.text('Bonelli_2021', 280, 70);
 
 }
 
